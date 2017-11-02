@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/visaoGeral"
+            android:icon="@drawable/ic_widgets_black_24dp"
+            android:title="Visão Geral" />
+
+        <item
+            android:id="@+id/perfil"
+            android:icon="@drawable/ic_person_outline_black_24dp"
+            android:title="Perfil" />
+
+        <item
+            android:id="@+id/gerarGrafico"
+            android:icon="@drawable/ic_equalizer_black_24dp"
+            android:title="Gráficos" />
+
+        <item
+            android:id="@+id/conta"
+            android:icon="@drawable/ic_conta"
+            android:title="Contas" />
+
+        <item
+            android:id="@+id/receita"
+            android:icon="@drawable/ic_add_circle_outline_black_24dp"
+            android:title="Receita" />
+
+        <item
+            android:id="@+id/despesa"
+            android:icon="@drawable/ic_remove_circle_outline_black_24dp"
+            android:title="Despesa" />
+
+        <item
+            android:id="@+id/calendario"
+            android:icon="@drawable/ic_today_black_24dp"
+            android:title="Calendário" />
+
+        <item
+            android:id="@+id/calculadora"
+            android:icon="@drawable/ic_calculator"
+            android:title="Calculadora" />
+
+        <item android:title="Sair do CountApp">
+            <menu>
+                <item
+                    android:id="@+id/sair"
+                    android:icon="@drawable/ic_exit"
+                    android:title="Sair" />
+            </menu>
+        </item>
+
+    </group>
+</menu>

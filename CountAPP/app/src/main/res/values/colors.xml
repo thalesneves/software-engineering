@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#5a6bce</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#0099ff</color>-->
+
+    <color name="colorPrimary">#6131ba</color>
+    <color name="colorPrimaryDark">#4e2796</color>
+    <color name="colorAccent">#4e2796</color>
+
+    <color name="despesas">#ff0000</color>
+    <color name="despesasForte">#bc0000</color>
+
+    <color name="receitas">#3cb371</color>
+    <color name="receitasForte">#2e935b</color>
+
+    <color name="nav_header_main">#848484</color>
+
+    <color name="black">#000000</color>
+    <color name="black_claro">#a0000000</color>
+
+    <!--Calculadora-->
+    <color name="color1">#ffffff</color>
+    <color name="color2">#5e5e5e</color>
+    <color name="color3">#8b8b8b</color>
+
+    <color name="color4">#9b9b9b</color>
+    <color name="color5">#417eba</color>
+    <color name="color6">#5660c2</color>
+
+    <!--Login-->
+    <color name="login1">#9d4adf</color>
+    <color name="login2">#7e39b6</color>
+    <color name="login3">#f26c78</color>
+
+    <!--Gráfico Barra-->
+    <color name="barra1">#d9508a</color>
+    <color name="barra2">#fe9507</color>
+
+    <color name="calendario">#818eec</color>
+
+    <color name="colorBackground">#d6d7d7</color>
+</resources>

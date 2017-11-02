@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.VisaoGeral"
+    android:elevation="0dp"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ListView
+        android:id="@+id/lstReceitas"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_above="@+id/btnDespesa"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true" />
+
+    <ListView
+        android:id="@+id/lstDespesas"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/btnReceitas"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lstReceitas"
+        android:layout_centerHorizontal="true"
+        android:text="Receitas"
+        android:textAlignment="center"
+        android:textColor="@color/receitasForte"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btnDespesa"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lstDespesas"
+        android:layout_alignLeft="@+id/btnReceitas"
+        android:layout_alignStart="@+id/btnReceitas"
+        android:elevation="0dp"
+        android:text="Despesas"
+        android:textAlignment="center"
+        android:textColor="@color/despesasForte"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>

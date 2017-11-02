@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.thalesdasilva.countapp.ActReceita">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/ic_count_app"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="79dp"
+        android:layout_marginTop="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/textView14"
+        android:layout_toStartOf="@+id/textView14"
+        android:layout_marginRight="21dp"
+        android:layout_marginEnd="21dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/black_claro"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:layout_marginRight="83dp"
+        android:layout_marginEnd="83dp"
+        android:layout_marginBottom="22dp"
+        android:layout_alignBottom="@+id/imageView6"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="21dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/imageView6"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:id="@+id/edtReceita"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_above="@+id/edtValorTransacao"
+            android:layout_alignLeft="@+id/edtValorTransacao"
+            android:layout_alignStart="@+id/edtValorTransacao"
+            android:layout_marginBottom="13dp"
+            android:ems="10"
+            android:hint="ID Receita"
+            android:inputType="number"/>
+
+        <Spinner
+            android:id="@+id/spnCategoria"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignLeft="@+id/edtReceita"
+            android:layout_alignStart="@+id/edtReceita"
+            android:layout_below="@+id/textView14" />
+
+        <EditText
+            android:id="@+id/edtValorTransacao"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/edtFormaRecebimento"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="Valor"
+            android:inputType="numberDecimal" />
+
+        <Spinner
+            android:id="@+id/spnMoeda"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="16dp"/>
+
+        <Spinner
+            android:id="@+id/spnFormaRecebimento"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/edtData"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignLeft="@+id/edtMoeda"
+            android:layout_alignRight="@+id/edtMoeda"
+            android:layout_below="@+id/edtMoeda"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:focusableInTouchMode="false"
+            android:hint="Data"
+            android:inputType="date" />
+
+    </LinearLayout>
+
+</RelativeLayout>
